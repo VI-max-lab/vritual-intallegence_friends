@@ -1,2 +1,105 @@
 # vritual-intallegence_friends
 this is foe my friends
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>birth day</title>
+    <style>
+       body{
+        background:
+        linear-gradient(90deg, rgb(217, 176, 255), rgb(30, 22, 37))
+       }
+       .circle1{
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+           background-color: rgb(230, 0, 255);
+           position:absolute;
+           left:200px;
+           top:200px;
+           animation-name: circleanimations;
+          animation-duration: 2s;
+          animation-iteration-count: infinite;
+          animation-direction: alternate;
+           opacity: 0.5;
+        }
+        .circle2{
+               width: 100px;
+            height: 100px;
+            border-radius: 50%;
+           background-color: rgb(230, 0, 255);
+           position:absolute;
+           left:800px;
+           top:300px;
+          animation-name: circleanimations;
+          animation-duration: 3s;
+          animation-iteration-count: infinite;
+          animation-direction: alternate;
+          opacity: 0.5;
+        }
+        .circle4{
+               width: 100px;
+            height: 100px;
+            border-radius: 50%;
+           background-color: rgb(230, 0, 255);
+           position:absolute;
+           left:500px;
+           top:100px;
+          animation-name: circleanimations;
+          animation-duration: 3s;
+          animation-iteration-count: infinite;
+          animation-direction: alternate;
+          opacity: 0.5;
+        }
+        .circle3{
+               width: 100px;
+            height: 100px;
+            border-radius: 50%;
+           background-color: rgb(230, 0, 255);
+           position:absolute;
+           left:400px;
+           top:400px;
+          animation-name: circleanimations;
+          animation-duration: 1s;
+          animation-iteration-count: infinite;
+          animation-direction: alternate;
+          opacity: 0.5;
+        }
+        @keyframes circleanimations {
+            from{
+                transform: translateY(-50px);
+            }
+            to{
+                transform: translateY(0px);
+            }
+          
+            }
+            h1{
+                text-align: center;
+                background-image: conic-gradient(#ffffff,#ff4500,#f2ff00, #00ff00,#000dff,#ff00dd);
+                color: whitesmoke;
+                padding: 200px;
+                background: 200px;
+                padding-top: conic-gradient(#ffffff,#ff4500,#f2ff00, #00ff00,#000dff,#ff00dd);
+            }
+            details{
+                text-align: center;
+                color: white;
+                padding: 100px 100px;
+                background-color: black;
+                border-left: 5%;
+                border-right: 5%;
+            }
+    </style>
+</head>
+<body>
+ <div class="circle1"></div>
+ <div class="circle2"></div>
+ <div class="circle4"></div>
+ <div class="circle3"></div>
+ <h1>Happy BIRTHDAY</h1>
+ <details>I AM VEDANT,I MADE THIS WEB FOR YOU..... I WAS THINKING WHEN YOUR BIRTHDAY COMES BUT YOU DON'T TELL WHY THIS RESPONSE<summary>CLICK HERE</summary></details>
+</body>
+</html>
